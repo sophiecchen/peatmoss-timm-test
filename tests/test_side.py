@@ -4,7 +4,7 @@
 # run with pytest
 
 import unittest
-from peatmoss_transformers_test import side
+from peatmoss_timm_test import side
 
 class Test(unittest.TestCase):
     def test_side(self):

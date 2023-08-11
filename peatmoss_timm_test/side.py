@@ -5,7 +5,7 @@ import timm
 
 def pure_import():
     real = "resnet50"
-    model = timm.create_model(real, False)
+    model = timm.create_model(real, pretrained=False)
 
     real2 = "resnet50"
     model2 = timm.models.create_model(real2)
